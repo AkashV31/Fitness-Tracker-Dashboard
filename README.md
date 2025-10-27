@@ -9,7 +9,7 @@ A TCET Industry Practice (IP) Mini-Project Group 16:
 The aim of this project is to create a functional, web-based fitness tracker dashboard. Users can log their daily workouts-including type, duration, calories burned, and date-and visualize their progress in real-time. This application serves as a client-side prototype, demonstrating modern frontend web technologies and data visualization.
 
 2. Live Screenshot
-[Add a screenshot of your dashboard here! Just drag an image into this section on the GitHub website.]
+<img width="1381" height="931" alt="image" src="https://github.com/user-attachments/assets/afc34896-d467-4bc1-8267-99eb4010ce4f" />
 
 3. Features
 * Log Workouts: A clean, easy-to-use form to submit new workouts.
