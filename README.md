@@ -28,6 +28,7 @@ Note: Because it is a client-side prototype, all workout data will be lost when 
 o Click the green < > Code button on GitHub.
 o Select Download ZIP.
 o Unzip the folder on your computer.
+
 #2 Open the File:
 o Navigate into the project folder.
 o Simply double-click the index.html file.
