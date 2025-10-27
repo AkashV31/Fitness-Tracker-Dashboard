@@ -24,11 +24,11 @@ o Calories vs. Duration: A scatter plot to help identify trends (e.g., "Which wo
 This is a client-side-only application. It runs entirely in your web browser. No server or Java backend is required to run this demo.
 Note: Because it is a client-side prototype, all workout data will be lost when you refresh the page.
 
-1. Download or Clone:
+#1 Download or Clone:
 o Click the green < > Code button on GitHub.
 o Select Download ZIP.
 o Unzip the folder on your computer.
-2. Open the File:
+#2 Open the File:
 o Navigate into the project folder.
 o Simply double-click the index.html file.
 o It will open in your default web browser (Chrome, Firefox, etc.) and be fully functional.
