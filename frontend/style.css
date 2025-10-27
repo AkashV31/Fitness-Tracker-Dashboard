@@ -1,0 +1,157 @@
+/* ECHO is on. */
+/* Define theme colors and fonts */
+:root {
+    --primary-color: #4BC0C0; /* Teal from Chart.js */
+    --primary-hover: #3aa0a0;
+    --red-color: #FF6384;
+    --yellow-color: #FFCE56;
+    --blue-color: #36A2EB;
+    --purple-color: #9966FF;
+    --grey-color: #C9CBCF;
+
+    --card-bg: #ffffff;
+    --page-bg: #f4f7f6;
+    --text-color: #333;
+    --border-color: #e0e0e0;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--page-bg);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* 2-column layout */
+.dashboard-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on small screens */
+    gap: 30px;
+}
+
+/* --- Form Column --- */
+.workout-input {
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    box-sizing: border-box;
+    flex: 1; /* Takes 1 part of the space */
+    min-width: 320px;
+    /* Stick to the top while scrolling */
+    align-self: flex-start;
+}
+
+.workout-input h3 {
+    text-align: left;
+    color: var(--primary-color);
+}
+
+/* --- Chart Column --- */
+.chart-stack {
+    flex: 2.5; /* Takes more space */
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.chart-container {
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative; /* Required by Chart.js */
+    min-height: 400px;
+    height: 400px; /* Give charts a consistent height */
+}
+
+/* Special container for the pie chart to be smaller */
+.pie-container {
+    min-height: 350px;
+    height: auto;
+    max-height: 450px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Adds space between form elements */
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    /* Required for select in some browsers */
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(75, 192, 192, 0.2);
+}
+
+button {
+    padding: 14px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-2px); /* Slight lift effect */
+}
