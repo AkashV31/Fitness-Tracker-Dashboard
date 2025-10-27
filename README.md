@@ -47,7 +47,7 @@ o It will open in your default web browser (Chrome, Firefox, etc.) and be fully 
 
 7. Future Work
 The next logical step for this project is to transition it from a client-side prototype to a full-stack application.
-1. Connect Backend: Implement the Java backend using a framework like Spring Boot to create a REST API.
-2. Add Database: Connect the Java server to a database (like MySQL or H2) to permanently store user data.
-3. Integrate Frontend: Update the app.js file to use fetch() to send and receive data from the Java backend instead of a local array.
+* Connect Backend: Implement the Java backend using a framework like Spring Boot to create a REST API.
+* Add Database: Connect the Java server to a database (like MySQL or H2) to permanently store user data.
+* Integrate Frontend: Update the app.js file to use fetch() to send and receive data from the Java backend instead of a local array.
 
