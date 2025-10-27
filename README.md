@@ -1,5 +1,3 @@
-ECHO is on.
-
 Fitness Tracker Dashboard
 
 A TCET Industry Practice (IP) Mini-Project Group 16: 
